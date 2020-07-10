@@ -13,7 +13,7 @@ class EmailAddressParser
   def parse
    parsedemails = @emails.split.collect {|emails| email.split (", ")}
   parsed  = parsedemails.flatten.uniq
-  return parsed
+   parsed
   end
   
 end
